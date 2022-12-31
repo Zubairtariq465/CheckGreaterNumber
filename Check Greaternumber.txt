@@ -4,6 +4,7 @@ void main(){
   }
  abc(int n)
 {
+// check greater number
   var number =[11,21,31,41,31];
 //    var len = number.length;
 //    print('$number[0]');
