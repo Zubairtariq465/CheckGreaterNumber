@@ -1,0 +1,24 @@
+void main(){
+  var check = abc(1);
+  print("$check");
+  }
+ abc(int n)
+{
+  var number =[11,21,31,41,31];
+//    var len = number.length;
+//    print('$number[0]');
+   var isGreater = 0;
+  for(var i=0; i<number.length; i++ ){
+    if (n<number[i])
+    {
+      isGreater = 1;
+    }
+}
+   
+   if(isGreater == 1)
+   {
+     return 'true';
+   }
+   else {
+     return 'false';
+   }
